@@ -1,0 +1,10 @@
+kitap yönetim form 
+
+kitap listesi
+kitap sil btn  => txtbox gelen id'ye göre
+kitap ekle btn  => yeni pencere aç
+kitap sat => ilgili kitap id ve adet verip satış yapıyoruz
+sat işlevenin arka planı şöyle adet olarak düşüyoruz satılan adeti
+birim fiyat* adet  => kazanç demek bunuda userın'ın bakiyesine ekle
+
+
