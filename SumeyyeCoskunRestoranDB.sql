@@ -8,6 +8,7 @@ GO
 
 CREATE TABLE Calisanlar
 (
+	CalisanID INT PRIMARY KEY IDENTITY,
 	Adi NVARCHAR(25) NOT NULL,
 	Soyadi NVARCHAR(25) NOT NULL,
 	DogumTarihi DATE NOT NULL,
@@ -22,6 +23,7 @@ GO
 
 CREATE TABLE Gorevler
 (
+	GorevlerID INT PRIMARY KEY IDENTITY,
 	Adi NVARCHAR(25) NOT NULL,
 	Aciklama NVARCHAR(100) NULL,
 	OlusturmaZamani DATE NOT NULL,
@@ -33,6 +35,7 @@ GO
 
 CREATE TABLE Urunler
 (
+	UrunlerID INT PRIMARY KEY IDENTITY,
 	Adi NVARCHAR(25) NOT NULL,
 	KategoriAdi NVARCHAR(25) NOT NULL,
 	Aciklama NVARCHAR(100) NULL,
@@ -47,12 +50,13 @@ GO
 
 CREATE TABLE Menu
 (
+	MenuID INT PRIMARY KEY IDENTITY,
 	Adi NVARCHAR(25) NOT NULL,
 	KategoriAdi NVARCHAR(25) NOT NULL,
 	Aciklama NVARCHAR(100) NULL,
 	Kalori INT NOT NULL,
 	ServisSuresi INT NOT NULL,
-	Fiyat INT NOT NULL,
+	Fiyat DECIMAL(6,2) NOT NULL,
 	OlusturmaZamani DATE NOT NULL,
 	DuzenlemeZamani DATE NULL,
 	Versiyon INT NOT NULL,
@@ -62,6 +66,7 @@ GO
 
 CREATE TABLE MenuRecete
 (
+	MenuReceteID INT PRIMARY KEY IDENTITY,
 	Adi NVARCHAR(25) NOT NULL,
 	UrunAdi NVARCHAR(25) NOT NULL,
 	Miktar DECIMAL(6,2) NOT NULL,
@@ -96,9 +101,9 @@ VALUES
 GO
 
 
-INSERT INTO Urunler VALUES ('Su', 'Ýçecek', '500 ml', 1.5, 'Adet', GETDATE(), NULL, 1, 1)
+INSERT INTO Urunler VALUES ('Su', 'Ýçecek', '500 ml', 2, 'Adet', GETDATE(), NULL, 1, 1)
 INSERT INTO Urunler VALUES ('Kýrmýzý Et', 'Et', '1 kg', 25.75, 'Kilo', GETDATE(), NULL, 1, 1)
-INSERT INTO Urunler VALUES ('Makarna', 'Makarna', '250 gr', 10.5, 'Kilo', GETDATE(), NULL, 1, 1)
+INSERT INTO Urunler VALUES ('Makarna', 'Makarna', '500 gr', 10, 'Kilo', GETDATE(), NULL, 1, 1)
 INSERT INTO Urunler VALUES ('Marul', 'Sebze', 'Yeþillik', 1, 'Adet', GETDATE(), NULL, 1, 1)
 INSERT INTO Urunler VALUES ('Kola', 'Ýçecek', '330 ml', 3, 'Adet', GETDATE(), NULL, 1, 1)
 GO
@@ -122,6 +127,8 @@ VALUES
 GO
 
 
+
+/*
 ALTER TABLE Calisanlar
 ALTER COLUMN DuzenlemeZamani DATETIME --Düzenleme zamanýnda saattinde gözükmesi için 	
 
@@ -183,6 +190,8 @@ DROP COLUMN Maas
 
 DROP TABLE Gorevler
 
+DROP DATABASE RestoranDB
+GO
 
 -- RENAME
 
@@ -193,3 +202,4 @@ EXEC sp_rename 'Calisanlar.Maas', 'CalisanMaasi', 'COLUMN'
 GO
 
 
+*/
