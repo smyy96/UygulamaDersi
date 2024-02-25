@@ -1,0 +1,16 @@
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\bin\Debug\net6.0-windows\RandomGrupOlusturma.exe
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\bin\Debug\net6.0-windows\RandomGrupOlusturma.deps.json
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\bin\Debug\net6.0-windows\RandomGrupOlusturma.runtimeconfig.json
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\bin\Debug\net6.0-windows\RandomGrupOlusturma.dll
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\bin\Debug\net6.0-windows\RandomGrupOlusturma.pdb
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.Form1.resources
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.csproj.GenerateResource.cache
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.AssemblyInfoInputs.cache
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.AssemblyInfo.cs
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.csproj.CoreCompileInputs.cache
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.dll
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\refint\RandomGrupOlusturma.dll
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.pdb
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\RandomGrupOlusturma.genruntimeconfig.cache
+C:\Users\Sumeyye\source\repos\Ank16\sumeyye.coskun\ANK16.SC\RandomGrupOlusturma\obj\Debug\net6.0-windows\ref\RandomGrupOlusturma.dll
